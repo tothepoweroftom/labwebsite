@@ -1,0 +1,21 @@
+$font_path: '../../fonts/Lab/';
+
+// *********** //
+// LAB  //
+// ITALIC
+@font-face{
+  font-family    : 'LabBold';
+  src            : url($font_path +'LabBoldCap.ttf'); /* IE9 Compat; Modes */
+  font-style     : bold;
+}
+// REGULAR
+@font-face{
+  font-family    : 'Lab';
+  src            : url($font_path + 'Lab Thin.ttf'); /* IE9 Compat; Modes */
+  font-style     : normal;
+  font-weight    : 100;
+}
+// Use "font-family: $source_sans_pro" in your code.
+$lab-font : 'Lab', sans-serif;
+// [END] SOURCE SANS //
+// ***************** //
