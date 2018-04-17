@@ -5,19 +5,31 @@ const SidebarStore = {
   sidebarLinks: [
     {
       name: 'Projects',
-      path: '/admin/overview'
+      sublinks: [
+        'Alexa X Dos Equis',
+        'Smartify',
+        'Audio Interface',
+      ]
     },
     {
       name: 'Articles',
-      path: '/admin/overview'
+      sublinks: [
+        'Plant Article'
+      ]
     },
     {
       name: 'Videos',
-      path: '/admin/overview'
+      sublinks: [
+        'Trained By Machines',
+        'KLM'
+      ]
     },
     {
       name: 'Posts',
-      path: '/admin/overview'
+      sublinks: [
+        'Post 1',
+        'Post 2'
+      ]
     },
   ],
   displaySidebar (value) {

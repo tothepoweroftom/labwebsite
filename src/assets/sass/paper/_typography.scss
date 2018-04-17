@@ -1,12 +1,15 @@
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .brand, a, .td-name, td {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Lab', "Helvetica", Arial, sans-serif;
+  font-family: "Graphik", Arial, sans-serif;
 }
 
+.lab {
+  font-family: "LabBold", sans-serif;
+}
 
-.navbar {
-  font-family: 'Lab', sans-serif;
+h2, .navbar {
+  font-family: 'LabBold', sans-serif;
   color: $white-color;
 
 }

@@ -1,4 +1,5 @@
 $font_path: '../../fonts/Lab/';
+$font_path_graphik: '../../fonts/Graphik/';
 
 // *********** //
 // LAB  //
@@ -6,7 +7,6 @@ $font_path: '../../fonts/Lab/';
 @font-face{
   font-family    : 'LabBold';
   src            : url($font_path +'LabBoldCap.ttf'); /* IE9 Compat; Modes */
-  font-style     : bold;
 }
 // REGULAR
 @font-face{
@@ -15,6 +15,19 @@ $font_path: '../../fonts/Lab/';
   font-style     : normal;
   font-weight    : 100;
 }
+
+@font-face{
+    font-family    : 'Graphik';
+    src            : url($font_path_graphik +'Graphik-Medium.ttf'); /* IE9 Compat; Modes */
+    font-style     : normal;
+}
+
+@font-face{
+    font-family    : 'GraphikBold';
+    src            : url($font_path_graphik +'Graphik-Bold.ttf'); /* IE9 Compat; Modes */
+    font-style     : bold;
+}
+
 // Use "font-family: $source_sans_pro" in your code.
 $lab-font : 'Lab', sans-serif;
 // [END] SOURCE SANS //
